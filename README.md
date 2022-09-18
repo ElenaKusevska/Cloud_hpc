@@ -14,7 +14,7 @@ Link\
 (Last part about floating IPs is not necessary)
 
 Connect to instance using:\
-```bash
+```shell
 $ ssh -i SSH.pem ubuntu@x.x.x.x
 ```
 
