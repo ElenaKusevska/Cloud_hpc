@@ -15,7 +15,7 @@ Link\
 
 Connect to instance using:\
 ```bash
-ssh -i SSH.pem ubuntu@x.x.x.x
+$ ssh -i SSH.pem ubuntu@x.x.x.x
 ```
 
 ## Useful links
