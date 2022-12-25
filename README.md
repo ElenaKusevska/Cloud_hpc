@@ -10,10 +10,8 @@ https://docs.openstack.org/horizon/queens/user/configure-access-and-security-for
 
 Save the SSH key to your local machine. 
 
-Then launch a new instance, specifying the created security rules and SSH key. As described here:
-
-https://www.youtube.com/watch?v=BZ204OE8CSc&t=29s
-
+Then launch a new instance, specifying the created security rules and SSH key. As described here:\
+https://www.youtube.com/watch?v=BZ204OE8CSc&t=29s \
 (Configuring floating IPs is not necessary)
 
 Change the permissions for SSH.pem:
