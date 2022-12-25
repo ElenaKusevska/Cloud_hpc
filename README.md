@@ -6,13 +6,16 @@ In my case the cloud is set up in OpenStack. We are using one external and one i
 
 ## Launching an instance and connecting to it through SSH
 Before launching an instance configure security rules for instances as described here:
+
 https://docs.openstack.org/horizon/queens/user/configure-access-and-security-for-instances.html
 
 Save the SSH key to your local machine. 
 
-Then launch a new instance, specifying the created security rules and SSH key. As described here:\
-Link\
-(Last part about floating IPs is not necessary)
+Then launch a new instance, specifying the created security rules and SSH key. As described here:
+
+https://www.youtube.com/watch?v=BZ204OE8CSc&t=29s
+
+(Configuring floating IPs is not necessary)
 
 Connect to instance using:
 ```shell
