@@ -57,4 +57,7 @@ and for the child nodes:
 x.x.x.x manager
 x.x.x.x worker1
 
+export PATH="$PATH:/home/mpiuser/.openmpi/bin"
+export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/home/mpiuser/.openmpi/lib"
+
 ## Useful links
