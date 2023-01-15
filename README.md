@@ -24,10 +24,24 @@ Connect to instance using:
 $ ssh -i SSH.pem ubuntu@x.x.x.x
 ```
 
-## Useful links
-
 ## Setting up an mpi cluster
+After creating all the instances, they can be configured for MPI in the dollowing way:
+
+Because the instances are fresh installations run:
+```shell
+sudo apt-get update
+```
+
+### Create separate users for mpi on each server and conect them with ssh:
+
+(Note to self - do we really need to do this? Can we use the default ubuntu user and its SSH connections instead?)
+
+### Install Open MPI
+Then, install Open MPI:
+
+```shell
 sudo apt-get install openmpi-bin
+```
 
 edit /etc/hosts on all servers. For example, for the parent node:
 
@@ -42,3 +56,5 @@ and for the child nodes:
 #MPI CLUSTERS
 x.x.x.x manager
 x.x.x.x worker1
+
+## Useful links
